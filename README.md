@@ -24,7 +24,6 @@ This project implements the "Exclusive Packages" UI component using Next.js 14 (
 
 
 <pre>
-\```txt
 src/
  │── app/                           		# App Router (Next.js 14)
  │   │── layout.tsx              		# Global layout
@@ -51,18 +50,19 @@ src/
  │   │   │── _variables.scss     		# SCSS variables
  │   │   └── _mixins.scss        		# SCSS mixins
  │   └── *.scss                  		# Component styles
+</pre>
 
 ## 🛠️ Used Technologies
 
 
 | Package                                                | Purpose                     |
 | ------------------------------------------------------ | --------------------------- |
-| `next`                                               | Framework                   |
-| `react`,`react-dom`                                | UI rendering                |
-| `sass`                                               | SCSS support                |
-| `react-icons`                                        | Icon library                |
-| `@reduxjs/toolkit`                                   | Modern Redux implementation |
-| `react-redux`                                        | Redux bindings for React    |
-| `@tanstack/react-query`or `@reduxjs/toolkit/query` | Data fetching               |
-| `typescript`                                         | Type safety                 |
-| `eslint`                                             | Code linting                |
+| `next`                                                 | Framework                   |
+| `react`,`react-dom`                                    | UI rendering                |
+| `sass`                                                 | SCSS support                |
+| `react-icons`                                          | Icon library                |
+| `@reduxjs/toolkit`                                     | Modern Redux implementation |
+| `react-redux`                                          | Redux bindings for React    |
+| `@tanstack/react-query`or `@reduxjs/toolkit/query`     | Data fetching               |
+| `typescript`                                           | Type safety                 |
+| `eslint`                                               | Code linting                |
