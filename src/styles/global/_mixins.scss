@@ -1,0 +1,33 @@
+@use './variables' as *;
+
+@mixin theme($name, $bg, $accent) {
+  &.#{$name} {
+    background-color: $bg;
+
+    .logo {
+      background: rgba($accent, 0.1);
+      svg {
+        color: $accent;
+      }
+    }
+
+    .button,
+    .title {
+      background-color: $accent;
+      color: $common-white;
+    }
+
+    .quantity {
+      background: $bg;
+      color: $accent;
+    }
+
+    .price-saveUp {
+      color: $accent;
+    }
+
+    .price-button {
+      background: $accent;
+    }
+  }
+}

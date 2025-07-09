@@ -1,0 +1,24 @@
+.exclusive-packages-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: $common-white;
+  border-radius: 10px;
+  font-size: 16px;
+
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    padding: 5px 10px;
+
+    .quantity {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      padding: 2px 7px;
+    }
+  }
+}

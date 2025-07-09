@@ -1,0 +1,28 @@
+.exclusive-packages-days {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-size: 18px;
+  color: $common-grey;
+
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px 0px 0 10px;
+    transition: 0.2s;
+    height: 40px;
+    margin-right: -6px;
+    cursor: pointer;
+
+    &:hover {
+      background: $border-primary;
+    }
+
+    &.active {
+      background: $common-white;
+      color: $common-black;
+    }
+  }
+}

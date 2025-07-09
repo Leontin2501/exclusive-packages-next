@@ -1,0 +1,83 @@
+.exclusive-packages-card {
+  display: flex;
+  gap: 20px;
+  color: $common-black;
+
+  &-content {
+    display: flex;
+  }
+
+  &-container {
+    flex: 1;
+    padding: 40px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    @include theme(wild, $secondary-wild, $primary-wild);
+    @include theme(classic, $secondary-classic, $primary-classic);
+    @include theme(quality, $secondary-quality, $primary-quality);
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 600;
+      margin-bottom: 10px;
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+
+      .title {
+        border-radius: 20px;
+        padding: 2px 7px;
+        margin-top: -5px;
+      }
+    }
+
+    &__subtitle {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    &__description {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid $border-primary;
+      padding: 20px 0;
+
+      .price {
+        font-weight: 700;
+
+        &-amount {
+          margin-bottom: 10px;
+        }
+
+        &-button {
+          width: 60%;
+          color: $common-white;
+        }
+      }
+    }
+
+    &__additionalInfo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      color: $common-grey;
+      font-weight: 600;
+    }
+  }
+}
