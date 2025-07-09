@@ -21,32 +21,36 @@ This project implements the "Exclusive Packages" UI component using Next.js 14 (
 
 ## 📂 Project Structure
 
+
+
+<pre>
+\```txt
 src/
  │── app/                           		# App Router (Next.js 14)
  │   │── layout.tsx              		# Global layout
  │   │── page.tsx                		# Home page
  │   │── globals.scss            		# Global styles
- │  └── providers/              		# React providers
- │── components/                 	# Shared reusable components
+ │   └── providers/              		# React providers
+ │── components/                 		# Shared reusable components
  │── UI/                         		# UI elements (e.g., buttons)
  │   └── CommonButton.tsx
  │── features/
  │   └── exclusive-packages/
- │        │── components/         	# Feature-specific components
- │       └── types.ts            		# Feature types
+ │        │── components/         		# Feature-specific components
+ │        └── types.ts            		# Feature types
  │── shared/
  │   └── api/                    		# RTK Query API endpoints and dummy data for cards
  │        │── dataApi.ts
- │       └── postsApi.ts
+ │        └── postsApi.ts
  │── const/                      		# Project-wide constants
  │── store/
  │   └── store.ts                		# Redux store config
  │── types/                      		# Global types
  │── styles/
  │   │── global/
- │   │   │── _variables.scss     	# SCSS variables
- │   │  └── _mixins.scss        	# SCSS mixins
- │  └── *.scss                  		# Component styles
+ │   │   │── _variables.scss     		# SCSS variables
+ │   │   └── _mixins.scss        		# SCSS mixins
+ │   └── *.scss                  		# Component styles
 
 ## 🛠️ Used Technologies
 
