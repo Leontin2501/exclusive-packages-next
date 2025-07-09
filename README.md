@@ -9,7 +9,7 @@ This project implements the "Exclusive Packages" UI component using Next.js 14 (
 
 1. **Clone the repository:**
 
-   2. **Install dependencies:**
+2. **Install dependencies:**
 
     `npm i`
 
