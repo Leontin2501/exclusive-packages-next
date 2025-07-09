@@ -4,6 +4,7 @@ import { JSX } from "react";
 import { GiTigerHead } from "react-icons/gi";
 import { LuPackage } from "react-icons/lu";
 import { IoDiamond } from "react-icons/io5";
+import { RiArrowRightSLine } from "react-icons/ri";
 
 import { CommonButton } from "@/components/UI/CommonButton";
 import { ExclusivePackagesOptions } from "./ExclusivePackagesOptions";
@@ -27,6 +28,9 @@ export const ExclusivePackagesCard = () => {
 
   return (
     <div className="exclusive-packages-card">
+      <div className="exclusive-packages-card-arrow">
+        <RiArrowRightSLine size={32} />
+      </div>
       {packages?.map((pkg) => (
         <div
           key={pkg.title}
