@@ -58,7 +58,7 @@ export const ExclusivePackagesCard = () => {
             <CommonButton title="See calendar" className="price-button" />
           </div>
           <div className="exclusive-packages-card-container__additionalInfo">
-            Price for person in a {pkg.additionalInfo}
+            Price per person in a {pkg.additionalInfo}
           </div>
         </div>
       ))}
